@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Lato_Black';
+  src: local("Lato_Black"),
+  url("./fonts/Lato_Black.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.MAIN_DIV{
+  background-color: #ffa325;
+  align-self: center;
+  
+}
+
+.TASK_ENTRY{
+  background-color: #4CAF50;
+  border: 3px inset rgba(255,160,0,1);
+  width: 100%;
+  font-family: 'Lato_Black';
+}
+
+.TASK_BODY{
+  background-color: #4CAF50;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Lato_Black';
+  text-align: center;
+}
+
+input[type=text]:hover{
+  border:1px solid #ff632d;
+}
+
+/* submit button */
+input[type=submit]{
+  align-self: center;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:99.5%;
+  font-family: 'Lato_Black';
+}
+
+input[type=submit]:hover{
+  border:1px solid #ff632d;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.research_text{
+  border-top: 4px solid #4CAF50;
+  border-bottom: 1px solid #4CAF50;
+  background-color: rgba(195, 201, 203, .4);
+  width: auto;
+  text-align: center;
+  font-family: 'Lato_Black';
+}
+
+.main_banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  border:1px solid #ff632d;
+}
+
+.monIcon{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992.1px) and (max-width: 9999px){
+  .main_banner{
+    width: 100%;
+  }
+
+  .research_text{
+    font-size: 25px;
+  }
+
+  input[type=text]{
+    font-size: 25px;
+  }
+
+  input[type=submit]{
+    font-size: 25px;
+  }
+
+  .TASK_ENTRY{
+    font-size: 50px;
+  }
+  .monIcon{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+  }
+
+  input[type=text]:hover{
+    border:5px solid #ff632d;
+  }
+
+  a:hover{
+    border:5px solid #ff632d;
+  }
+}
+
+@media (min-width: 768.1px) and (max-width: 992px) {
+  .main_banner{
+    width: 100%;
+  }
+
+  .research_text{
+    font-size: 20px;
+  }
+
+  input[type=text]{
+    font-size: 20px;
+  }
+
+  input[type=submit]{
+    font-size: 20px;
+  }
+
+  .TASK_ENTRY{
+    font-size: 35px;
+  }
+  .monIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+  }
+
+  input[type=text]:hover{
+    border:5px solid #ff632d;
+  }
+
+  a:hover{
+    border:5px solid #ff632d;
+  }
+
+  ul{
+    max-height: 430px;
+  }
+}
+
+@media (min-width: 576.1px) and (max-width: 768px){
+
+  .research_text{
+    font-size: 20px;
+  }
+
+  input[type=text]{
+    font-size: 20px;
+  }
+
+  input[type=submit]{
+    font-size: 20px;
+  }
+
+  .TASK_ENTRY{
+    font-size: 35px;
+  }
+  .monIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+  }
+
+  input[type=text]:hover{
+    border:5px solid #ff632d;
+  }
+
+  a:hover{
+    border:5px solid #ff632d;
+  }
+
+  ul{
+    max-height: 430px;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 576px){
+  .research_text{
+    font-size: 20px;
+  }
+
+  input[type=text]{
+    font-size: 20px;
+  }
+
+  input[type=submit]{
+    font-size: 20px;
+  }
+
+  .TASK_ENTRY{
+    font-size: 35px;
+  }
+  .monIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+  }
+
+  input[type=text]:hover{
+    border:5px solid #ff632d;
+  }
+
+  a:hover{
+    border:5px solid #ff632d;
+  }
+
+  ul{
+    max-height: 300px;
+  }
+
+}
